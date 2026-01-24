@@ -16,6 +16,10 @@
 body {
     display: flex;
     justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 
 .main-container {
@@ -57,6 +61,113 @@ a {
 .neutral-star {
     color: var(--main-bg-color)
 }
+
+/****** Header ***********/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 19px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 48px;
+}
+
+nav a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+nav a:hover {
+    color: #0065FC;
+    cursor: pointer;
+    padding-top: 28.6px;
+    border-top: #0065FC 2px solid;
+}
+
+/****** Search-section ***********/
+form {
+    display: flex;
+    flex-direction: row;
+    height: 49px;
+}
+
+.localisation-icon {
+    height: 100%;
+    width: 50px;
+    background-color: #F2F2F2;
+    border-radius: 15px 0 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.localisation-icon i {
+    height: 18px;
+    color: black;
+}
+
+input {
+    border: solid 1px #F2F2F2;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+form button {
+    background-color: #0065FC;
+    padding: 15px 16px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 0 15px 15px 0;
+    border: none;
+    cursor: pointer;
+}
+
+/************ Filters **************/
+.filters h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.filters-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.filters-container div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.filters-container button {
+    padding: 4px 19px;
+    border-radius: 25px;
+    border: solid 2px #D9D9D9;
+    color: black;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 700;    
+}
+
+.filters-container button:hover {
+    background-color: #DEEBFF; 
+    cursor: pointer;
+}
+
+
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
