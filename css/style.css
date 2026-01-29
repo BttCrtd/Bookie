@@ -257,6 +257,10 @@ form button {
     margin-bottom: 8px;
 }
 
+.hebergements-card .card-content p {
+    margin: 0;
+}
+
 .voir-plus{
     cursor: pointer;
     text-align: left;
