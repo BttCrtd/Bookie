@@ -181,6 +181,13 @@ form button .fa-solid {
     gap: 15px;
 }
 
+.filters h2 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
 .filters-container {
     display: flex;
     gap: 15px;
